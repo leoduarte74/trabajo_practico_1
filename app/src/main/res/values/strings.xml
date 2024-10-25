@@ -1,0 +1,50 @@
+<resources>
+    <!-- TÍTULOS DE SECCIONES Y PANTALLAS PRINCIPALES -->
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- ARRAY DE SEDES PARA EL SPINNER -->
+    <string-array name="branches_array">
+        <item>Sede Asunción</item>
+        <item>Sede Lambaré</item>
+        <item>Sede San Lorenzo</item>
+        <item>Sede Fernando de la Mora</item>
+    </string-array>
+
+    <!-- NOMBRE DE LA APLICACIÓN -->
+    <string name="app2_name">Mboriaju</string>
+    <string name="app1_name">Mboriaju</string>
+
+    <!-- TEXTOS DE BIENVENIDA Y BOTÓN DE INICIO EN LA PANTALLA INICIAL -->
+    <string name="welcome_text">Bienvenido a</string>
+    <string name="start_button">Empezar</string>
+
+    <!-- TEXTOS PARA EL FORMULARIO DE REGISTRO -->
+    <string name="register_title">Regístrate en Mboriaju y empieza el cambio</string>
+    <string name="name_hint">Nombre y apellido</string>
+    <string name="age_hint">Edad</string>
+    <string name="training_question">¿Qué entrenamiento prefieres?</string>
+    <string name="option_musculacion">Musculación</string>
+    <string name="option_crossfit">Crossfit</string>
+    <string name="option_functional">Functional</string>
+    <string name="branch_question">Elije tu sede más cercana</string>
+    <string name="branch_asuncion">Sede Asunción</string>
+    <string name="branch_lambare">Sede Lambaré</string>
+    <string name="branch_san_lorenzo">Sede San Lorenzo</string>
+    <string name="branch_fernando">Sede Fernando de la Mora</string>
+    <string name="agreement_question">¿Estás listo para empezar el cambio más grande de tu vida?</string>
+    <string name="submit_button">Enviar</string>
+
+    <!-- TEXTOS DE LA SEGUNDA PANTALLA (DISPLAY DE DATOS INGRESADOS) -->
+    <string name="display_title">¡Ya sos parte de Mboriaju, guerrero!</string>
+    <string name="display_subtitle">Estos son tus datos</string>
+    <string name="back_button">Volver a la pantalla inicial</string>
+
+    <!-- TEXTOS DE LA PANTALLA "ACERCA DE..." -->
+    <string name="title_about">Acerca de…</string>
+    <string name="version_software">Versión del software: 1.0.0</string>
+    <string name="developer_name">Desarrolladora: LucasLab</string>
+    <string name="release_date">Fecha de lanzamiento: 24/10/2024</string>
+    <string name="about_back_button">Volver</string>
+</resources>

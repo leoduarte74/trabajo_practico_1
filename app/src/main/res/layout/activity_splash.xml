@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FF0000"
+    android:padding="16dp">
+
+    <!-- Bienvenida -->
+    <TextView
+        android:id="@+id/textViewWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_text"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <!-- Nombre de la app -->
+    <TextView
+        android:id="@+id/textViewAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/app2_name"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="italic" />
+
+    <!-- Imagen de logo -->
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="450dp"
+        android:layout_height="400dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/app2_name"
+        android:src="@drawable/logo"
+        tools:ignore="ImageContrastCheck" />
+
+    <!-- Botón para empezar -->
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_button"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#000000" />
+
+</LinearLayout>

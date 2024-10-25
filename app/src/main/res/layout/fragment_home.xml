@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Título de la pantalla -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_title"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Campo de texto para Nombre y Apellido -->
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name_hint"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Campo de texto para Edad -->
+    <EditText
+        android:id="@+id/editTextAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/age_hint"
+        android:inputType="number"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Pregunta sobre el tipo de entrenamiento -->
+    <TextView
+        android:id="@+id/textViewTrainingQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/training_question"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- RadioGroup para elegir el tipo de entrenamiento -->
+    <RadioGroup
+        android:id="@+id/radioGroupTraining"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioMusculacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/option_musculacion"/>
+
+        <RadioButton
+            android:id="@+id/radioCrossfit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/option_crossfit"/>
+
+        <RadioButton
+            android:id="@+id/radioFunctional"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/option_functional"/>
+    </RadioGroup>
+
+    <!-- Pregunta sobre la sede -->
+    <TextView
+        android:id="@+id/textViewBranchQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/branch_question"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Spinner para elegir la sede -->
+    <Spinner
+        android:id="@+id/spinnerBranch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Checkbox para la pregunta final -->
+    <CheckBox
+        android:id="@+id/checkBoxAgreement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/agreement_question"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Botón para enviar -->
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_button"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF0000"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
