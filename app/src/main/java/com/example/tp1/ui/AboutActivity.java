@@ -1,3 +1,12 @@
+/*
+ * Nombre del proyecto: Mboriaju
+ * Autores: LucasLab
+ * Descripción: Esta clase muestra la pantalla "Acerca de..." con información de la versión y desarrolladores.
+ * Fecha de creación: 24/10/2024
+ * Forma de utilizar: Se navega a esta actividad desde el menú inferior de la aplicación.
+ */
+
+
 package com.example.tp1.ui;
 
 import android.os.Bundle;
