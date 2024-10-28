@@ -50,14 +50,16 @@ public class DisplayDataActivity extends AppCompatActivity {
         textViewData.setText(datosMostrados);
 
         // CONFIGURAR EL BOTÓN PARA REGRESAR A LA PANTALLA INICIAL (SPLASHACTIVITY)
-        buttonBack.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // INICIAR LA SPLASHACTIVITY Y FINALIZAR LA ACTIVIDAD ACTUAL
-                Intent intent = new Intent(DisplayDataActivity.this, SplashActivity.class);
-                startActivity(intent);
-                finish(); // FINALIZA LA ACTIVIDAD ACTUAL
-            }
+        buttonBack.setOnClickListener(v -> {
+            // INICIAR LA SPLASHACTIVITY Y FINALIZAR LA ACTIVIDAD ACTUAL
+            Intent intent1 = new Intent(DisplayDataActivity.this, SplashActivity.class);
+            startActivity(intent1);
+            finish(); // FINALIZA LA ACTIVIDAD ACTUAL
         });
+
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
+
     }
 }

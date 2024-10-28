@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.TP1" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorPrimary">@color/red_background</item>
+        <item name="colorPrimaryVariant">@color/red_background</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
@@ -14,5 +14,7 @@
         <!-- Customize your theme here. -->
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="colorAccent">@color/red_background</item> <!-- Color rojo de selección -->
+        <item name="colorControlHighlight">@color/red_background</item> <!-- Color cuando se presiona -->
     </style>
 </resources>

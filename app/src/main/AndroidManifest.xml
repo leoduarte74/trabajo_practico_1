@@ -22,7 +22,8 @@
         <!-- SPLASH SCREEN (PANTALLA DE INICIO) -->
         <activity
             android:name=".ui.SplashActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.TP1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

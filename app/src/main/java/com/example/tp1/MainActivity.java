@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(binding.navView, navController);
 
         // MANEJAR LOS EVENTOS DE SELECCIÓN EN LA BARRA DE NAVEGACIÓN
-        navView.setOnNavigationItemSelectedListener(item -> {
+        navView.setOnItemSelectedListener(item -> {
             // SI SE SELECCIONA "ABOUT", SE ABRE LA ACTIVIDAD "ABOUTACTIVITY"
             if (item.getItemId() == R.id.navigation_about) {
                 Intent intent = new Intent(MainActivity.this, AboutActivity.class);
@@ -59,5 +59,9 @@ public class MainActivity extends AppCompatActivity {
             return NavigationUI.onNavDestinationSelected(item, navController)
                     || super.onOptionsItemSelected(item);
         });
+
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
     }
 }

@@ -10,7 +10,9 @@
         <item name="colorSecondaryVariant">@color/teal_200</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor">@color/red_background</item>
         <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/red_background</item> <!-- Color rojo de selección -->
+        <item name="colorControlHighlight">@color/red_background</item> <!-- Color cuando se presiona -->
     </style>
 </resources>

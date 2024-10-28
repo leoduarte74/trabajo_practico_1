@@ -27,14 +27,15 @@ public class SplashActivity extends AppCompatActivity {
         Button buttonStart = findViewById(R.id.buttonStart);
 
         // CONFIGURAR EL EVENTO CLICK PARA EL BOTÓN
-        buttonStart.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // NAVEGAR A LA ACTIVIDAD PRINCIPAL (MAINACTIVITY) CUANDO EL USUARIO PRESIONE "EMPEZAR"
-                Intent intent = new Intent(SplashActivity.this, MainActivity.class);
-                startActivity(intent);
-                finish(); // FINALIZAR LA ACTIVIDAD PARA EVITAR VOLVER AL SPLASH SCREEN
-            }
+        buttonStart.setOnClickListener(v -> {
+            // NAVEGAR A LA ACTIVIDAD PRINCIPAL (MAINACTIVITY) CUANDO EL USUARIO PRESIONE "EMPEZAR"
+            Intent intent = new Intent(SplashActivity.this, MainActivity.class);
+            startActivity(intent);
+            finish(); // FINALIZAR LA ACTIVIDAD PARA EVITAR VOLVER AL SPLASH SCREEN
         });
+
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
     }
 }
