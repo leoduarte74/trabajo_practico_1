@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+   Nombre del proyecto: Mboriaju
+    Autores: Leonardo Duarte, Lucas Baruja, Ezequiel Arce, Ivan Samudio
+    Descripción: Este archivo define el layout principal de la aplicación, incluyendo el contenedor de navegación y la vista de navegación inferior.
+                 Contiene un BottomNavigationView para la navegación entre diferentes fragmentos y un NavHostFragment para gestionar el flujo de pantallas.
+    Fecha de creación: 23/10/2024
+    Forma de utilizar: Este layout se infla en la actividad principal y actúa como el contenedor principal para los fragmentos de la aplicación,
+                       facilitando la navegación mediante el menú inferior.
+-->
+
+
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/container"

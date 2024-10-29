@@ -1,6 +1,6 @@
 /*
  * Nombre del proyecto: Mboriaju
- * Autores: LucasLab
+ * Autores: Leonardo Duarte, Lucas Baruja, Ezequiel Arce, Ivan Samudio
  * Descripción: Esta clase muestra los datos ingresados por el usuario en una nueva pantalla.
  * Fecha de creación: 23/10/2024
  * Forma de utilizar: Esta actividad se invoca desde MainActivity una vez que el usuario ha ingresado sus datos.

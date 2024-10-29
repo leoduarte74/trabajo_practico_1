@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+   Nombre del proyecto: Mboriaju
+    Autores: Leonardo Duarte, Lucas Baruja, Ezequiel Arce, Ivan Samudio
+    Descripción: Este archivo define el layout de la pantalla de visualización de datos ingresados por el usuario.
+                 Muestra un título, una sección para los datos y un botón para regresar a la pantalla inicial.
+    Fecha de creación: 23/10/2024
+    Forma de utilizar: Este layout se infla en la actividad o fragmento de visualización de datos y se utiliza para mostrar
+                       la información ingresada por el usuario en un formato centrado.
+-->
+
+
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"

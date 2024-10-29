@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+   Nombre del proyecto: Mboriaju
+   Autores: Leonardo Duarte, Lucas Baruja, Ezequiel Arce, Ivan Samudio
+   Descripción: Este archivo define el layout para la pantalla de registro del usuario, incluyendo campos para el nombre, edad,
+                 tipo de entrenamiento preferido, sede seleccionada, y un acuerdo de términos. También incluye un botón de envío.
+   Fecha de creación: 23/10/2024
+   Forma de utilizar: Este layout se infla en el fragmento o actividad de registro y se utiliza para recolectar los datos básicos
+                       del usuario que serán enviados para procesarlos en la app.
+-->
+
+
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"

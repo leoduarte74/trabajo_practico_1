@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+   Nombre del proyecto: Mboriaju
+   Autores: Leonardo Duarte, Lucas Baruja, Ezequiel Arce, Ivan Samudio
+   Descripción: Este archivo define el layout para el fragmento del dashboard, con un TextView centrado que puede mostrar
+                 información general o de resumen sobre el usuario o la aplicación.
+    Fecha de creación: 23/10/2024
+    Forma de utilizar: Este layout se infla en el fragmento DashboardFragment y se utiliza para mostrar información centralizada
+                       que el usuario necesita ver en el panel de control.
+-->
+
+
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"

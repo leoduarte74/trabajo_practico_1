@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    Nombre del proyecto: Mboriaju
+    Autores: Leonardo Duarte, Lucas Baruja, Ezequiel Arce, Ivan Samudio
+    Descripción: Este archivo define el layout de la pantalla "Acerca de...", mostrando información sobre la versión del software,
+                 los desarrolladores y la fecha de lanzamiento. También incluye un botón para volver a la pantalla anterior.
+    Fecha de creación: 23/10/2024
+    Forma de utilizar: Este layout se infla en la actividad o fragmento "Acerca de..." y presenta datos informativos sobre la aplicación.
+-->
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"

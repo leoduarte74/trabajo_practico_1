@@ -1,6 +1,6 @@
 /*
  * Nombre del proyecto: Mboriaju
- * Autores: LucasLab
+ * Autores: Leonardo Duarte, Lucas Baruja, Ezequiel Arce, Ivan Samudio
  * Descripción: Esta clase maneja la pantalla principal de la app, permite el registro de usuario y la navegación entre pantallas.
  * Fecha de creación: 23/10/2024
  * Forma de utilizar: Esta clase se utiliza como la entrada principal de la aplicación. Maneja el registro y la navegación.

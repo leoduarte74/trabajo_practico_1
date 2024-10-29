@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+    Nombre del proyecto: Mboriaju
+    Autores: Leonardo Duarte, Lucas Baruja, Ezequiel Arce, Ivan Samudio
+    Descripción: Este archivo define todas las cadenas de texto utilizadas en la aplicación, incluyendo títulos, textos de bienvenida,
+                 formularios, botones y mensajes para la pantalla "Acerca de...". Facilita la gestión de textos para una posible
+                 localización y mantenimiento de la app.
+    Fecha de creación: 23/10/2024
+    Forma de utilizar: Las cadenas de texto definidas aquí se referencian en los layouts y el código de la aplicación para
+                       mantener un lenguaje consistente y permitir traducciones sin modificar el código.
+-->
+
 <resources>
     <string name="about_back_button">Volver</string>
 </resources>

@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+   Nombre del proyecto: Mboriaju
+    Autores: Leonardo Duarte, Lucas Baruja, Ezequiel Arce, Ivan Samudio
+    Descripción: Este archivo define la paleta de colores utilizada en la aplicación, incluyendo colores para fondos, textos,
+                 y acentos en la interfaz de usuario.
+    Fecha de creación: 23/10/2024
+    Forma de utilizar: Los colores definidos aquí se utilizan en los layouts y estilos de la aplicación para mantener una
+                       apariencia visual consistente y fácil de modificar.
+-->
+
+
 <resources>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>

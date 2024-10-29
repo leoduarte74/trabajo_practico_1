@@ -1,3 +1,14 @@
+/*
+ * Nombre del proyecto: Mboriaju
+ * Autores: Leonardo Duarte, Lucas Baruja, Ezequiel Arce, Ivan Samudio
+ * Descripción: Este fragmento permite el ingreso de datos del usuario, incluyendo nombre, edad, entrenamiento preferido, y sede.
+ *              Valida los campos y, si están completos, envía los datos a la actividad DisplayDataActivity.
+ * Fecha de creación: 23/10/2024
+ * Forma de utilizar: Este fragmento se utiliza dentro de la actividad principal y actúa como el formulario de registro para el usuario.
+ *                    Tras completar los campos, el usuario puede enviar los datos para visualizarlos en la siguiente actividad.
+ */
+
+
 package com.example.tp1.ui.home;
 
 import android.content.Intent;
